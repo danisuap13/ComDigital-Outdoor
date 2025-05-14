@@ -41,7 +41,7 @@ El proyecto permite monitorear en tiempo real la posición y movimiento de un ca
 
 ## 📸 Diagrama del Sistema
 
-![Esquemático del sistema](./ComDigital-Outdoor/esquematico_proyecto.jpeg)
+![Esquemático del sistema](./esquematico_proyecto.jpeg)
 
 ## 📌 Estado del Proyecto
 
