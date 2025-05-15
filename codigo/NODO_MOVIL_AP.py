@@ -1,10 +1,3 @@
-"""
-Nodo Móvil (AP):
-Este script configura un microcontrolador como un punto de acceso WiFi (AP).
-Su función es emitir una señal de red para que otros dispositivos puedan medir su intensidad (RSSI).
-No transmite datos por radiofrecuencia; simplemente sirve como fuente detectable.
-"""
-
 # mobile_node_ap.py
 # Rol: Actuar como un Punto de Acceso WiFi (AP).
 # Su señal WiFi será medida por los Nodos Fijos.
@@ -39,7 +32,7 @@ def setup_ap():
     ap.active(True)
     
     # Authmode: 0-Open, 1-WEP, 2-WPA-PSK, 3-WPA2-PSK, 4-WPA/WPA2-PSK
-    ap.config(essid=AP_SSID, password=AP_PASSWORD, authmode=network.AUTH_WPA2_PSK)
+    ap.config(essid=AP_SSID, password=AP_PASSWORD)
     
     # Esperar a que el AP esté completamente activo
     # No hay una forma directa de esperar, pero podemos verificar la IP
